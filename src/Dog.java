@@ -9,5 +9,9 @@ public class Dog extends Animal {
         return "vuf vuf";
     }
 
+    @Override
+    public boolean eat(String foodType){
+        return true;
+    }
 
 }

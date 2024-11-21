@@ -10,4 +10,8 @@ public class Cat extends Animal{
         return "miav";
     }
 
+    @Override
+    public boolean eat(String foodType){
+        return true;
+    }
 }
