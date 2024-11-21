@@ -12,6 +12,8 @@ public class Main {
         System.out.println(dog.showMood(true));
         System.out.println(cat.showMood(false));
 
+
+        System.out.println("vi prøver at stash her");
     }
 
 }
