@@ -10,4 +10,6 @@ public abstract class Animal {
     abstract boolean eat (String foodtype);
 
     abstract String showMood (boolean mood);
+
+    abstract String jump(double distance);
 }
