@@ -14,4 +14,14 @@ public class Dog extends Animal {
         return true;
     }
 
+    @Override
+    public String showMood(boolean mood){
+        if (mood == true){
+            return "logrer";
+        } else if (mood == false){
+            return "knurrer";
+        }
+        return "";
+    }
+
 }

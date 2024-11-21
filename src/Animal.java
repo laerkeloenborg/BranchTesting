@@ -8,4 +8,6 @@ public abstract class Animal {
     abstract String makeSound();
 
     abstract boolean eat (String foodtype);
+
+    abstract String showMood (boolean mood);
 }
